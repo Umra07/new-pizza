@@ -1,0 +1,28 @@
+.products {
+  border-bottom: 1px solid rgb(210, 210, 210);
+  margin-bottom: 10px;
+
+  &__error {
+    text-align: center;
+    margin: 100px auto;
+    width: 460px;
+    h2 {
+      margin-bottom: 15px;
+      font-size: 32px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    @media (max-width: 730px) {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.root {
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  max-width: 280px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+  h1 {
+    font-size: 22px;
+  }
+
+  span {
+    font-size: 64px;
+  }
+}
+
+.description {
+  font-size: 12px;
+}
+
+.not-found__buttons-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .root {
+    max-width: 750px;
+    padding: 100px;
+    border-radius: 50px;
+    h1 {
+      font-size: 32px;
+    }
+  }
+  
+  .description {
+    font-size: 22px;
+  }  
+}
+
+@media (min-width: 500px) {
+  .root {
+    padding: 30px;
+    max-width: 500px;
+    border-radius: 35px;
+    h1 {
+      font-size: 26px;
+    }
+  }
+  .description {
+    font-size: 18px;
+  }
+}
